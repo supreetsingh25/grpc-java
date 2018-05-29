@@ -74,7 +74,7 @@ sourceSets {
 }
 
 // Generate IntelliJ IDEA's .idea & .iml project files
-apply plugin: 'idea'
+apply plugin: 'eclipse'
 
 // Provide convenience executables for trying out the examples.
 apply plugin: 'application'

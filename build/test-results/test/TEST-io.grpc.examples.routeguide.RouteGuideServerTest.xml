@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.grpc.examples.routeguide.RouteGuideServerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-05-29T14:09:30" hostname="LAPTOP-LC2LCSK6" time="0.065">
+  <properties/>
+  <testcase name="getFeature" classname="io.grpc.examples.routeguide.RouteGuideServerTest" time="0.024"/>
+  <testcase name="routeChat" classname="io.grpc.examples.routeguide.RouteGuideServerTest" time="0.012"/>
+  <testcase name="listFeatures" classname="io.grpc.examples.routeguide.RouteGuideServerTest" time="0.002"/>
+  <testcase name="recordRoute" classname="io.grpc.examples.routeguide.RouteGuideServerTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 29, 2018 7:39:31 PM io.grpc.examples.routeguide.RouteGuideServer start
+INFO: Server started, listening on 0
+May 29, 2018 7:39:31 PM io.grpc.examples.routeguide.RouteGuideServer start
+INFO: Server started, listening on 0
+May 29, 2018 7:39:31 PM io.grpc.examples.routeguide.RouteGuideServer start
+INFO: Server started, listening on 0
+May 29, 2018 7:39:31 PM io.grpc.examples.routeguide.RouteGuideServer start
+INFO: Server started, listening on 0
+]]></system-err>
+</testsuite>
