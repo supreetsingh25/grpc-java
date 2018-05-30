@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.grpc.examples.header.HeaderServerInterceptorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-29T14:09:30" hostname="LAPTOP-LC2LCSK6" time="0.102">
-  <properties/>
-  <testcase name="serverHeaderDeliveredToClient" classname="io.grpc.examples.header.HeaderServerInterceptorTest" time="0.102"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 29, 2018 7:39:30 PM io.grpc.examples.header.HeaderServerInterceptor interceptCall
-INFO: header received from client:Metadata(grpc-accept-encoding=gzip,user-agent=grpc-java-inprocess/1.12.0,grpc-trace-bin=)
-]]></system-err>
-</testsuite>
