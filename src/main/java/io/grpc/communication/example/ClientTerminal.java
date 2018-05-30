@@ -18,7 +18,7 @@ public class ClientTerminal {
   private final ManagedChannel channel;
   private final CommunicatorGrpc.CommunicatorBlockingStub blockingStub;
 
-  /** Construct client connecting to HelloWorld server at {@code host:port}. */
+  /** Construct client connecting to  server at {@code host:port}. */
   public ClientTerminal(String host, int port) {
     this(ManagedChannelBuilder.forAddress(host, port)
         // Channels are secure by default (via SSL/TLS). For the example we disable TLS to avoid
