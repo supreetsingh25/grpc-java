@@ -11,8 +11,7 @@ $ ./gradlew installDist
 ```
 
 This creates the scripts `server-terminal` and `client-terminal` in
-`build/install/grpc-java-poc/bin/` directory that run the example. Each
-example requires the server to be running before starting the client.
+`build/install/grpc-java-poc/bin/` directory that run the example. This project requires the server to be running before starting the client.
 
 For example, to try the grpc-java-poc communication example first run:
 
