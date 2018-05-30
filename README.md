@@ -1,14 +1,10 @@
 
-grpc Example
+POC : grpc-java 
 ==============================================
 
-The example require grpc-java to already be built. 
+In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services.
 
-You may want to read through the
-[Quick Start Guide](https://grpc.io/docs/quickstart/java.html)
-before trying out the example.
-
-To build the example, run in this directory:
+To build the poc project, run below command in grpc-java directory:
 
 ```
 $ ./gradlew installDist
@@ -18,7 +14,7 @@ This creates the scripts `server-terminal` and `client-terminal` in
 `build/install/grpc-java-poc/bin/` directory that run the example. Each
 example requires the server to be running before starting the client.
 
-For example, to try the hello world example first run:
+For example, to try the grpc-java-poc communication example first run:
 
 ```
 $ ./build/install/grpc-java-poc/bin/server-terminal
@@ -32,9 +28,5 @@ $ ./build/install/grpc-java-poc/bin/client-terminal
 
 
 That's it!
-
-Please refer to gRPC Java's [README](../README.md) and
-[tutorial](https://grpc.io/docs/tutorials/basic/java.html) for more
-information.
 
 
