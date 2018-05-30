@@ -14,20 +14,20 @@ To build the example, run in this directory:
 $ ./gradlew installDist
 ```
 
-This creates the scripts `hello-world-server` and `hello-world-client` in
-`build/install/examples/bin/` directory that run the example. Each
+This creates the scripts `server-terminal` and `client-terminal` in
+`build/install/grpc-java-poc/bin/` directory that run the example. Each
 example requires the server to be running before starting the client.
 
 For example, to try the hello world example first run:
 
 ```
-$ ./build/install/examples/bin/hello-world-server
+$ ./build/install/grpc-java-poc/bin/server-terminal
 ```
 
 And in a different terminal window run:
 
 ```
-$ ./build/install/examples/bin/hello-world-client
+$ ./build/install/grpc-java-poc/bin/client-terminal
 ```
 
 
